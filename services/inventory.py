@@ -25,6 +25,17 @@ class Inventory:
 
         self.restock_history = list(restock_history or [])
 
+        if len(self.items) != len(items or []):
+            raise ValueError("Duplicate product IDs in inventory data.")
+        if len(self.categories) != len(categories or []):
+            raise ValueError("Duplicate category IDs in inventory data.")
+        for item in self.items.values():
+            if item.category_id not in self.categories:
+                raise ValueError(f"Product '{item.name}' refers to a missing category.")
+        for record in self.restock_history:
+            if record.item_id not in self.items:
+                raise ValueError("Restock history refers to a missing product.")
+
     # ==========================================
     # PRODUCT MANAGEMENT
     # ==========================================
@@ -158,6 +169,8 @@ class Inventory:
         new_name = kwargs.get("name")
 
         if new_name is not None:
+            if not isinstance(new_name, str) or not new_name.strip():
+                raise ValueError("Category name cannot be empty.")
             for existing_category in self.categories.values():
 
                 if existing_category.category_id == category_id:

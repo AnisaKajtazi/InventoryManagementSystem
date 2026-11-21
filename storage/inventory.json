@@ -1,5 +1,633 @@
 {
-    "items": [],
-    "categories": [],
-    "restock_history": []
+    "items": [
+        {
+            "item_id": "95ae1388-cfec-4532-bae3-0be61a425fde",
+            "name": "Laptop",
+            "description": "Business electronic device for office use.",
+            "price": "1249.00",
+            "quantity": 7,
+            "category_id": "85d775df-8390-489b-9d7c-5e60260056a5",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "2fb7d475-7258-477e-ba3d-cb41ceb7e412",
+            "name": "Desktop Computer",
+            "description": "Business electronic device for office use.",
+            "price": "899.00",
+            "quantity": 5,
+            "category_id": "85d775df-8390-489b-9d7c-5e60260056a5",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "77de7119-219e-4bfe-9958-a1d02f4e7a30",
+            "name": "Monitor",
+            "description": "Business electronic device for office use.",
+            "price": "329.00",
+            "quantity": 12,
+            "category_id": "85d775df-8390-489b-9d7c-5e60260056a5",
+            "low_stock_threshold": 4
+        },
+        {
+            "item_id": "0ab0c44a-ed70-405c-b067-8880776633ad",
+            "name": "Tablet",
+            "description": "Business electronic device for office use.",
+            "price": "499.00",
+            "quantity": 4,
+            "category_id": "85d775df-8390-489b-9d7c-5e60260056a5",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "530c5766-be91-4412-bf2c-bd62e0cadaf1",
+            "name": "Smartphone",
+            "description": "Business electronic device for office use.",
+            "price": "799.00",
+            "quantity": 0,
+            "category_id": "85d775df-8390-489b-9d7c-5e60260056a5",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "efdb8d5c-776d-4499-9681-073b1e23a1f2",
+            "name": "Projector",
+            "description": "Business electronic device for office use.",
+            "price": "679.00",
+            "quantity": 3,
+            "category_id": "85d775df-8390-489b-9d7c-5e60260056a5",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "bbbf60ee-c49e-4f45-8bcb-3e9509187810",
+            "name": "Laptop Stand",
+            "description": "Computer productivity accessory.",
+            "price": "49.90",
+            "quantity": 18,
+            "category_id": "ca5944eb-2e78-4d79-8e69-0162d6014eac",
+            "low_stock_threshold": 5
+        },
+        {
+            "item_id": "89dc8898-7ee6-443c-8169-7fa4b4878ba5",
+            "name": "Cooling Pad",
+            "description": "Computer productivity accessory.",
+            "price": "34.50",
+            "quantity": 2,
+            "category_id": "ca5944eb-2e78-4d79-8e69-0162d6014eac",
+            "low_stock_threshold": 4
+        },
+        {
+            "item_id": "eee86d67-cfc4-4f0a-b391-30b01684753b",
+            "name": "USB Hub",
+            "description": "Computer productivity accessory.",
+            "price": "42.00",
+            "quantity": 9,
+            "category_id": "ca5944eb-2e78-4d79-8e69-0162d6014eac",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "5c1a281e-19f8-4937-9d1f-ed2349fe924b",
+            "name": "Webcam",
+            "description": "Computer productivity accessory.",
+            "price": "69.00",
+            "quantity": 6,
+            "category_id": "ca5944eb-2e78-4d79-8e69-0162d6014eac",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "649af92e-e3db-4f63-95fa-4a807b6ea981",
+            "name": "Microphone",
+            "description": "Computer productivity accessory.",
+            "price": "89.00",
+            "quantity": 2,
+            "category_id": "ca5944eb-2e78-4d79-8e69-0162d6014eac",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "f873cd05-85c6-4faf-b198-25a8aa767754",
+            "name": "Printer Paper",
+            "description": "Quality stationery for daily office work.",
+            "price": "6.50",
+            "quantity": 45,
+            "category_id": "314ff77e-2601-4650-a341-c8f0a6773df2",
+            "low_stock_threshold": 10
+        },
+        {
+            "item_id": "6e99aab2-672b-476d-a371-839fd1408ddb",
+            "name": "Notebook",
+            "description": "Quality stationery for daily office work.",
+            "price": "4.20",
+            "quantity": 60,
+            "category_id": "314ff77e-2601-4650-a341-c8f0a6773df2",
+            "low_stock_threshold": 12
+        },
+        {
+            "item_id": "01e90d61-726c-4eb3-a170-92e0b0d4d7ee",
+            "name": "Pens",
+            "description": "Quality stationery for daily office work.",
+            "price": "12.90",
+            "quantity": 22,
+            "category_id": "314ff77e-2601-4650-a341-c8f0a6773df2",
+            "low_stock_threshold": 8
+        },
+        {
+            "item_id": "2623a2cc-77c1-454b-a1f0-422c0960912d",
+            "name": "Stapler",
+            "description": "Quality stationery for daily office work.",
+            "price": "18.00",
+            "quantity": 1,
+            "category_id": "314ff77e-2601-4650-a341-c8f0a6773df2",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "c8d672fc-6b30-4c97-8ff2-fc01c786c328",
+            "name": "Office Organizer",
+            "description": "Quality stationery for daily office work.",
+            "price": "24.00",
+            "quantity": 8,
+            "category_id": "314ff77e-2601-4650-a341-c8f0a6773df2",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "89aa3ba8-f923-469d-9345-7397e23fd9ce",
+            "name": "Whiteboard Markers",
+            "description": "Quality stationery for daily office work.",
+            "price": "9.80",
+            "quantity": 0,
+            "category_id": "314ff77e-2601-4650-a341-c8f0a6773df2",
+            "low_stock_threshold": 4
+        },
+        {
+            "item_id": "a9ecc7dd-a8eb-4db1-a542-67dadba5a7f7",
+            "name": "Office Chair",
+            "description": "Durable office furniture.",
+            "price": "249.00",
+            "quantity": 5,
+            "category_id": "6aa77f68-b2d3-4eb2-be75-008dd656bba5",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "05106484-21fe-4a90-b689-9484f19de938",
+            "name": "Office Desk",
+            "description": "Durable office furniture.",
+            "price": "479.00",
+            "quantity": 3,
+            "category_id": "6aa77f68-b2d3-4eb2-be75-008dd656bba5",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "47013bef-b300-4fb5-8767-db8d62a6e721",
+            "name": "Bookshelf",
+            "description": "Durable office furniture.",
+            "price": "159.00",
+            "quantity": 4,
+            "category_id": "6aa77f68-b2d3-4eb2-be75-008dd656bba5",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "1057779d-d066-4269-9489-8fceb08601fe",
+            "name": "Filing Cabinet",
+            "description": "Durable office furniture.",
+            "price": "189.00",
+            "quantity": 2,
+            "category_id": "6aa77f68-b2d3-4eb2-be75-008dd656bba5",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "246913ec-dc2d-460d-8be8-454d24ca0735",
+            "name": "Meeting Table",
+            "description": "Durable office furniture.",
+            "price": "599.00",
+            "quantity": 1,
+            "category_id": "6aa77f68-b2d3-4eb2-be75-008dd656bba5",
+            "low_stock_threshold": 1
+        },
+        {
+            "item_id": "1e7b20cd-5355-4514-bc58-0206fb9e279f",
+            "name": "Wi-Fi Router",
+            "description": "Reliable business networking equipment.",
+            "price": "139.00",
+            "quantity": 7,
+            "category_id": "9483ec1c-55af-4bd5-8e61-2ae3b2db59d4",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "499cd727-8d7f-40ba-b2f9-49706cd14a7e",
+            "name": "Network Switch",
+            "description": "Reliable business networking equipment.",
+            "price": "229.00",
+            "quantity": 2,
+            "category_id": "9483ec1c-55af-4bd5-8e61-2ae3b2db59d4",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "426ffd76-3222-4ae5-929e-fa343a2230c8",
+            "name": "Ethernet Router",
+            "description": "Reliable business networking equipment.",
+            "price": "189.00",
+            "quantity": 6,
+            "category_id": "9483ec1c-55af-4bd5-8e61-2ae3b2db59d4",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "0345834a-2e75-470e-84b6-fb25a42de2ad",
+            "name": "Wireless Access Point",
+            "description": "Reliable business networking equipment.",
+            "price": "159.00",
+            "quantity": 3,
+            "category_id": "9483ec1c-55af-4bd5-8e61-2ae3b2db59d4",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "8d14741c-c74e-4dee-bfca-d340e901c2ba",
+            "name": "Network Adapter",
+            "description": "Reliable business networking equipment.",
+            "price": "29.00",
+            "quantity": 0,
+            "category_id": "9483ec1c-55af-4bd5-8e61-2ae3b2db59d4",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "047b0d1e-d977-4413-ab0a-956d8d409d7b",
+            "name": "External SSD",
+            "description": "Portable digital storage device.",
+            "price": "119.00",
+            "quantity": 8,
+            "category_id": "4792d5ef-ad98-4ca5-9fca-55461d541650",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "6cc114b8-0ee4-4313-a471-3571d59af3f4",
+            "name": "External HDD",
+            "description": "Portable digital storage device.",
+            "price": "109.00",
+            "quantity": 5,
+            "category_id": "4792d5ef-ad98-4ca5-9fca-55461d541650",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "7f65d0b2-65fc-4b67-adb3-09337fcf6f26",
+            "name": "USB Flash Drive",
+            "description": "Portable digital storage device.",
+            "price": "11.50",
+            "quantity": 30,
+            "category_id": "4792d5ef-ad98-4ca5-9fca-55461d541650",
+            "low_stock_threshold": 10
+        },
+        {
+            "item_id": "8103464b-54ae-4626-b7a6-45976e08fecf",
+            "name": "Memory Card",
+            "description": "Portable digital storage device.",
+            "price": "19.90",
+            "quantity": 2,
+            "category_id": "4792d5ef-ad98-4ca5-9fca-55461d541650",
+            "low_stock_threshold": 4
+        },
+        {
+            "item_id": "54b2c27f-3697-4f38-a1ce-6b92f2cd1839",
+            "name": "NAS Drive",
+            "description": "Portable digital storage device.",
+            "price": "249.00",
+            "quantity": 3,
+            "category_id": "4792d5ef-ad98-4ca5-9fca-55461d541650",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "4e68d05b-7983-4a17-a2b4-0126f4f18107",
+            "name": "Keyboard",
+            "description": "Computer input or output peripheral.",
+            "price": "24.90",
+            "quantity": 20,
+            "category_id": "d48ed25b-4563-414c-8b10-c1f5561e030a",
+            "low_stock_threshold": 6
+        },
+        {
+            "item_id": "4de44ff0-dcd5-4208-8391-bd4798b7243d",
+            "name": "Wireless Mouse",
+            "description": "Computer input or output peripheral.",
+            "price": "29.90",
+            "quantity": 14,
+            "category_id": "d48ed25b-4563-414c-8b10-c1f5561e030a",
+            "low_stock_threshold": 5
+        },
+        {
+            "item_id": "81467f0f-9a10-4c33-9d6c-f68df0aa4ba6",
+            "name": "Mechanical Keyboard",
+            "description": "Computer input or output peripheral.",
+            "price": "89.00",
+            "quantity": 3,
+            "category_id": "d48ed25b-4563-414c-8b10-c1f5561e030a",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "83316d5b-f421-4ab6-a48f-f1e3589146bd",
+            "name": "Headphones",
+            "description": "Computer input or output peripheral.",
+            "price": "74.00",
+            "quantity": 8,
+            "category_id": "d48ed25b-4563-414c-8b10-c1f5561e030a",
+            "low_stock_threshold": 3
+        },
+        {
+            "item_id": "96f1b9a8-504d-42bd-83d4-216d8fa9d8f3",
+            "name": "Speakers",
+            "description": "Computer input or output peripheral.",
+            "price": "39.00",
+            "quantity": 1,
+            "category_id": "d48ed25b-4563-414c-8b10-c1f5561e030a",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "de557a29-9e42-443e-8a93-f748cb978b1c",
+            "name": "Barcode Scanner",
+            "description": "Computer input or output peripheral.",
+            "price": "119.00",
+            "quantity": 2,
+            "category_id": "d48ed25b-4563-414c-8b10-c1f5561e030a",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "fd981429-030b-4066-9fba-ce28bd26d7e2",
+            "name": "Docking Station",
+            "description": "Computer input or output peripheral.",
+            "price": "179.00",
+            "quantity": 4,
+            "category_id": "d48ed25b-4563-414c-8b10-c1f5561e030a",
+            "low_stock_threshold": 2
+        },
+        {
+            "item_id": "3bb0b90a-3ceb-4476-82ec-26c005de8541",
+            "name": "HDMI Cable",
+            "description": "Connectivity cable or adapter.",
+            "price": "8.90",
+            "quantity": 25,
+            "category_id": "30279bdc-563f-4187-b2da-88f52d239048",
+            "low_stock_threshold": 8
+        },
+        {
+            "item_id": "54557c54-7d4b-4b57-9a64-baa565509ab5",
+            "name": "USB-C Cable",
+            "description": "Connectivity cable or adapter.",
+            "price": "12.50",
+            "quantity": 40,
+            "category_id": "30279bdc-563f-4187-b2da-88f52d239048",
+            "low_stock_threshold": 10
+        },
+        {
+            "item_id": "7168a2bb-0131-4e1e-a7ce-b2b13914008a",
+            "name": "Ethernet Cable",
+            "description": "Connectivity cable or adapter.",
+            "price": "5.50",
+            "quantity": 35,
+            "category_id": "30279bdc-563f-4187-b2da-88f52d239048",
+            "low_stock_threshold": 10
+        },
+        {
+            "item_id": "10490782-d68d-4d1f-9333-458887da2c9c",
+            "name": "USB-C Adapter",
+            "description": "Connectivity cable or adapter.",
+            "price": "9.90",
+            "quantity": 6,
+            "category_id": "30279bdc-563f-4187-b2da-88f52d239048",
+            "low_stock_threshold": 4
+        },
+        {
+            "item_id": "7993e056-ce61-40bc-a43b-77dfccea88fb",
+            "name": "DisplayPort Cable",
+            "description": "Connectivity cable or adapter.",
+            "price": "14.90",
+            "quantity": 2,
+            "category_id": "30279bdc-563f-4187-b2da-88f52d239048",
+            "low_stock_threshold": 4
+        },
+        {
+            "item_id": "34dc84e5-cc6f-4df4-970d-0f99a90d283d",
+            "name": "Power Adapter",
+            "description": "Connectivity cable or adapter.",
+            "price": "39.90",
+            "quantity": 7,
+            "category_id": "30279bdc-563f-4187-b2da-88f52d239048",
+            "low_stock_threshold": 3
+        }
+    ],
+    "categories": [
+        {
+            "category_id": "85d775df-8390-489b-9d7c-5e60260056a5",
+            "name": "Electronics",
+            "description": "Business electronic device for office use."
+        },
+        {
+            "category_id": "ca5944eb-2e78-4d79-8e69-0162d6014eac",
+            "name": "Computer Accessories",
+            "description": "Computer productivity accessory."
+        },
+        {
+            "category_id": "314ff77e-2601-4650-a341-c8f0a6773df2",
+            "name": "Office Supplies",
+            "description": "Quality stationery for daily office work."
+        },
+        {
+            "category_id": "6aa77f68-b2d3-4eb2-be75-008dd656bba5",
+            "name": "Furniture",
+            "description": "Durable office furniture."
+        },
+        {
+            "category_id": "9483ec1c-55af-4bd5-8e61-2ae3b2db59d4",
+            "name": "Networking Equipment",
+            "description": "Reliable business networking equipment."
+        },
+        {
+            "category_id": "4792d5ef-ad98-4ca5-9fca-55461d541650",
+            "name": "Storage Devices",
+            "description": "Portable digital storage device."
+        },
+        {
+            "category_id": "d48ed25b-4563-414c-8b10-c1f5561e030a",
+            "name": "Peripherals",
+            "description": "Computer input or output peripheral."
+        },
+        {
+            "category_id": "30279bdc-563f-4187-b2da-88f52d239048",
+            "name": "Cables and Adapters",
+            "description": "Connectivity cable or adapter."
+        }
+    ],
+    "restock_history": [
+        {
+            "restock_id": "e76afd4d-24e1-47dc-8352-fd72730c322b",
+            "item_id": "0ab0c44a-ed70-405c-b067-8880776633ad",
+            "quantity_added": 4,
+            "timestamp": "2026-11-21T14:48:56"
+        },
+        {
+            "restock_id": "ac15f204-2cf7-4a99-8440-e5216b3e3970",
+            "item_id": "649af92e-e3db-4f63-95fa-4a807b6ea981",
+            "quantity_added": 7,
+            "timestamp": "2026-11-12T09:48:56"
+        },
+        {
+            "restock_id": "3fe5d155-e14b-4fe6-be7f-149e1a20f73f",
+            "item_id": "a9ecc7dd-a8eb-4db1-a542-67dadba5a7f7",
+            "quantity_added": 10,
+            "timestamp": "2026-11-03T04:48:56"
+        },
+        {
+            "restock_id": "cd4941c7-25a7-4e88-8e8b-a70da0c485f1",
+            "item_id": "426ffd76-3222-4ae5-929e-fa343a2230c8",
+            "quantity_added": 13,
+            "timestamp": "2026-10-24T23:48:56"
+        },
+        {
+            "restock_id": "6390bbdb-cd3a-445d-854e-b8fc31c3fb2f",
+            "item_id": "54b2c27f-3697-4f38-a1ce-6b92f2cd1839",
+            "quantity_added": 16,
+            "timestamp": "2026-10-15T18:48:56"
+        },
+        {
+            "restock_id": "1c5ad4ea-e198-4154-bcc5-7e66d732f46c",
+            "item_id": "fd981429-030b-4066-9fba-ce28bd26d7e2",
+            "quantity_added": 19,
+            "timestamp": "2026-10-07T13:48:56"
+        },
+        {
+            "restock_id": "d4df4d1a-310f-404b-b2fc-56c9f19d8d59",
+            "item_id": "95ae1388-cfec-4532-bae3-0be61a425fde",
+            "quantity_added": 4,
+            "timestamp": "2026-09-28T08:48:56"
+        },
+        {
+            "restock_id": "5709c401-35c7-4b43-bf99-20de95dd7ff0",
+            "item_id": "89dc8898-7ee6-443c-8169-7fa4b4878ba5",
+            "quantity_added": 7,
+            "timestamp": "2026-09-19T03:48:56"
+        },
+        {
+            "restock_id": "1a3a44e3-fdb4-475f-8ce9-2dec8607f7fc",
+            "item_id": "2623a2cc-77c1-454b-a1f0-422c0960912d",
+            "quantity_added": 10,
+            "timestamp": "2026-09-09T22:48:56"
+        },
+        {
+            "restock_id": "d983966a-41cd-455a-b6cd-e525db8c8bdb",
+            "item_id": "246913ec-dc2d-460d-8be8-454d24ca0735",
+            "quantity_added": 13,
+            "timestamp": "2026-08-31T17:48:56"
+        },
+        {
+            "restock_id": "52105818-c95c-4f47-aa78-58cec5021fb2",
+            "item_id": "6cc114b8-0ee4-4313-a471-3571d59af3f4",
+            "quantity_added": 16,
+            "timestamp": "2026-11-14T12:48:56"
+        },
+        {
+            "restock_id": "52e69e42-2b3d-4c1f-981d-4bfe6c3f6ebe",
+            "item_id": "83316d5b-f421-4ab6-a48f-f1e3589146bd",
+            "quantity_added": 19,
+            "timestamp": "2026-11-05T07:48:56"
+        },
+        {
+            "restock_id": "d453aff8-fda3-463d-9e02-b5172d36ad0c",
+            "item_id": "10490782-d68d-4d1f-9333-458887da2c9c",
+            "quantity_added": 4,
+            "timestamp": "2026-10-27T02:48:56"
+        },
+        {
+            "restock_id": "6e66df51-087c-4f03-9f7f-6992530d88a3",
+            "item_id": "530c5766-be91-4412-bf2c-bd62e0cadaf1",
+            "quantity_added": 7,
+            "timestamp": "2026-10-17T21:48:56"
+        },
+        {
+            "restock_id": "eb98a00f-6625-4ec1-b259-cf11a1d2db3f",
+            "item_id": "f873cd05-85c6-4faf-b198-25a8aa767754",
+            "quantity_added": 10,
+            "timestamp": "2026-10-08T16:48:56"
+        },
+        {
+            "restock_id": "27bb587b-6126-4b23-9f4c-824cc0f82097",
+            "item_id": "05106484-21fe-4a90-b689-9484f19de938",
+            "quantity_added": 13,
+            "timestamp": "2026-09-30T11:48:56"
+        },
+        {
+            "restock_id": "979c21a3-3ea0-4e6a-bbd8-89cd4e0b8e94",
+            "item_id": "0345834a-2e75-470e-84b6-fb25a42de2ad",
+            "quantity_added": 16,
+            "timestamp": "2026-09-21T06:48:56"
+        },
+        {
+            "restock_id": "1bec1600-49e1-498d-a1bc-1bf678038cc7",
+            "item_id": "4e68d05b-7983-4a17-a2b4-0126f4f18107",
+            "quantity_added": 19,
+            "timestamp": "2026-09-12T01:48:56"
+        },
+        {
+            "restock_id": "44e3d451-0b9a-4418-8729-ba6e0e0a4a8a",
+            "item_id": "3bb0b90a-3ceb-4476-82ec-26c005de8541",
+            "quantity_added": 4,
+            "timestamp": "2026-09-02T20:48:56"
+        },
+        {
+            "restock_id": "285c190a-8a0f-45af-b2b6-2dcf768ddd69",
+            "item_id": "2fb7d475-7258-477e-ba3d-cb41ceb7e412",
+            "quantity_added": 7,
+            "timestamp": "2026-11-15T15:48:56"
+        },
+        {
+            "restock_id": "8b547b41-64a8-4598-a393-45912978cbdf",
+            "item_id": "eee86d67-cfc4-4f0a-b391-30b01684753b",
+            "quantity_added": 10,
+            "timestamp": "2026-11-07T10:48:56"
+        },
+        {
+            "restock_id": "577ec01b-aa87-474d-9d15-76c311f711e4",
+            "item_id": "c8d672fc-6b30-4c97-8ff2-fc01c786c328",
+            "quantity_added": 13,
+            "timestamp": "2026-10-29T05:48:56"
+        },
+        {
+            "restock_id": "645c232d-5bc5-4e86-b48e-6eee431e2ceb",
+            "item_id": "1e7b20cd-5355-4514-bc58-0206fb9e279f",
+            "quantity_added": 16,
+            "timestamp": "2026-10-20T00:48:56"
+        },
+        {
+            "restock_id": "520aa436-d0cd-4f35-9186-8727ae5e65a0",
+            "item_id": "7f65d0b2-65fc-4b67-adb3-09337fcf6f26",
+            "quantity_added": 19,
+            "timestamp": "2026-10-10T19:48:56"
+        },
+        {
+            "restock_id": "55e042f0-2bea-4609-8089-65989115d712",
+            "item_id": "96f1b9a8-504d-42bd-83d4-216d8fa9d8f3",
+            "quantity_added": 4,
+            "timestamp": "2026-10-02T14:48:56"
+        },
+        {
+            "restock_id": "efda2433-0329-4f75-a133-10d9059a5bca",
+            "item_id": "7993e056-ce61-40bc-a43b-77dfccea88fb",
+            "quantity_added": 7,
+            "timestamp": "2026-09-23T09:48:56"
+        },
+        {
+            "restock_id": "955d63d3-6b33-4466-bd96-1516d6811b0b",
+            "item_id": "efdb8d5c-776d-4499-9681-073b1e23a1f2",
+            "quantity_added": 10,
+            "timestamp": "2026-09-14T04:48:56"
+        },
+        {
+            "restock_id": "cfc6e81a-38cf-40f7-9618-e8175f8b7bf5",
+            "item_id": "6e99aab2-672b-476d-a371-839fd1408ddb",
+            "quantity_added": 13,
+            "timestamp": "2026-09-04T23:48:56"
+        },
+        {
+            "restock_id": "30059680-112d-482a-830d-417ab77e66d2",
+            "item_id": "47013bef-b300-4fb5-8767-db8d62a6e721",
+            "quantity_added": 16,
+            "timestamp": "2026-11-17T18:48:56"
+        },
+        {
+            "restock_id": "949ba04f-44c3-4c5c-88dc-45425b46c906",
+            "item_id": "8d14741c-c74e-4dee-bfca-d340e901c2ba",
+            "quantity_added": 19,
+            "timestamp": "2026-11-09T13:48:56"
+        }
+    ]
 }

@@ -59,7 +59,8 @@ class Item:
         description=None,
         price=None,
         category_id=None,
-        low_stock_threshold=None
+        low_stock_threshold=None,
+        quantity=None
     ):
         new_name = self.name if name is None else name
         new_description = self.description if description is None else description
@@ -70,13 +71,15 @@ class Item:
             if low_stock_threshold is None
             else low_stock_threshold
         )
+        new_quantity = self.quantity if quantity is None else quantity
 
         old_values = (
             self.name,
             self.description,
             self.price,
             self.category_id,
-            self.low_stock_threshold
+            self.low_stock_threshold,
+            self.quantity,
         )
 
         self.name = new_name
@@ -84,6 +87,7 @@ class Item:
         self.price = new_price
         self.category_id = new_category_id
         self.low_stock_threshold = new_threshold
+        self.quantity = new_quantity
 
         try:
             self._validate()
@@ -93,7 +97,8 @@ class Item:
                 self.description,
                 self.price,
                 self.category_id,
-                self.low_stock_threshold
+                self.low_stock_threshold,
+                self.quantity,
             ) = old_values
             raise
 
